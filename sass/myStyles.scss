@@ -1,0 +1,1212 @@
+
+/*=============================================
+=            MULTIPLE PAGES            =
+=============================================*/
+
+html {
+	height: 100%;
+	min-height: 100%;
+}
+
+body {
+	position: relative;
+	height: 100%;
+	min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $typewriter;
+	color: $charcoal;
+}
+
+h1, h2, h3 {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h4, h5, h6 {
+	font-weight: 400;
+}
+
+p {
+	font-family: $sansSerifFont;
+	font-weight: 400;
+	font-size: 1.2em;
+	color: $charcoal;
+}
+
+header .header {
+	// padding-top: 30px;
+	margin-bottom: 30px;
+	position: absolute;
+	top: 0;
+	z-index: 3;
+	// padding-left: 0;
+
+	.headerImg {
+		padding-left: 0;
+	}
+
+	// img {
+	// 	padding-left: 0;
+	// }
+
+	.socialIcons {
+		display: inline;
+		float: right;
+
+		ul {
+			list-style: none;
+			float: right;
+		}
+
+		ul li {
+			display: inline;
+			margin-right: 10px;
+		}
+
+		ul li a i {
+			color: $myRed;
+		}
+
+		ul li a i:hover {
+			color: $myDarkRed;
+
+			-webkit-transition: all ease 0.3s;
+			-moz-transition: all ease 0.3s;
+			-o-transition: all ease 0.3s;
+			-ms-transition: all ease 0.3s;
+			transition: all ease 0.3s;
+		}
+	}
+}
+
+#stage {
+	position: relative;
+	height: 100%;
+	min-height: 100%;
+	min-width: 100%;
+	width: 100%;
+	overflow: visible;
+}
+
+.contentContainer {
+	position: relative;
+	top: 150px;
+	z-index: 9999;
+	margin: 0 5%;
+}
+
+// .wrap {
+// 	margin: 0 5%;
+// 	top: 0;
+// 	left: 0;
+// }
+
+#indexFooter {
+	background-image: url(../img/baroosfooter2.png);
+	height: 1000px;
+	// margin-top: -5%;
+	z-index: 9999;
+	position: relative;
+	top: 110px;
+	// margin-top: -50px;
+
+	.socialIcons {
+		display: inline;
+		margin-top: 60px;
+
+		ul {
+			float: none;
+			list-style: none;
+		}
+
+		ul li {
+			display: inline;
+			margin-right: 10px;
+		}
+
+		ul li a i {
+			color: $myRed;
+		}
+
+		ul li a i:hover {
+			color: $myDarkRed;
+
+			// -webkit-transition-duration: 0.3s;
+			// -moz-transition-duration: 0.3s;
+			// -o-transition-duration: 0.3s;
+			// -ms-transition-duration: 0.3s;
+			// transition-duration: 0.3s;
+
+			-webkit-transition: all ease 0.3s;
+			-moz-transition: all ease 0.3s;
+			-o-transition: all ease 0.3s;
+			-ms-transition: all ease 0.3s;
+			transition: all ease 0.3s;
+		}
+
+	}
+
+	.legalList {
+		list-style: none;
+		float: right;
+		margin-top: 60px;
+
+		li {
+			display: inline;
+			margin-right: 15px;
+			color: $myRed;
+			font-family: $typewriter;
+			font-weight: 700;
+			font-size: 1.3em;
+		}
+
+		a {
+			color: $myRed;
+		}
+
+		p {
+			display: inline;
+		}
+	}
+
+	.legalList li:hover {
+		color: $myDarkRed;
+
+		-webkit-transition: all ease 0.3s;
+		-moz-transition: all ease 0.3s;
+		-o-transition: all ease 0.3s;
+		-ms-transition: all ease 0.3s;
+		transition: all ease 0.3s;
+	}
+
+	.legalList li a:hover {
+		color: $myDarkRed;
+
+		-webkit-transition: all ease 0.3s;
+		-moz-transition: all ease 0.3s;
+		-o-transition: all ease 0.3s;
+		-ms-transition: all ease 0.3s;
+		transition: all ease 0.3s;
+	}
+}
+
+footer {
+	background-image: url(../img/baroosfooter.png);
+	height: 236px;
+	// margin-top: -5%;
+	z-index: 9999;
+	position: relative;
+	bottom: 0;
+	// margin-top: -50px;
+
+	.socialIcons {
+		display: inline;
+		margin-top: 60px;
+
+		ul {
+			float: none;
+			list-style: none;
+		}
+
+		ul li {
+			display: inline;
+			margin-right: 10px;
+		}
+
+		ul li a i {
+			color: $myRed;
+		}
+
+		ul li a i:hover {
+			color: $myDarkRed;
+
+			// -webkit-transition-duration: 0.3s;
+			// -moz-transition-duration: 0.3s;
+			// -o-transition-duration: 0.3s;
+			// -ms-transition-duration: 0.3s;
+			// transition-duration: 0.3s;
+
+			-webkit-transition: all ease 0.3s;
+			-moz-transition: all ease 0.3s;
+			-o-transition: all ease 0.3s;
+			-ms-transition: all ease 0.3s;
+			transition: all ease 0.3s;
+		}
+
+	}
+
+	.legalList {
+		list-style: none;
+		float: right;
+		margin-top: 60px;
+
+		li {
+			display: inline;
+			margin-right: 15px;
+			color: $myRed;
+			font-family: $typewriter;
+			font-weight: 700;
+			font-size: 1.3em;
+		}
+
+		a {
+			color: $myRed;
+		}
+
+		p {
+			display: inline;
+		}
+	}
+
+	.legalList li:hover {
+		color: $myDarkRed;
+
+		-webkit-transition: all ease 0.3s;
+		-moz-transition: all ease 0.3s;
+		-o-transition: all ease 0.3s;
+		-ms-transition: all ease 0.3s;
+		transition: all ease 0.3s;
+	}
+
+	.legalList li a:hover {
+		color: $myDarkRed;
+
+		-webkit-transition: all ease 0.3s;
+		-moz-transition: all ease 0.3s;
+		-o-transition: all ease 0.3s;
+		-ms-transition: all ease 0.3s;
+		transition: all ease 0.3s;
+	}
+}
+
+html body .myButton {
+	background-color: $myRed;
+}
+
+html body .myButton:hover {
+	background-color: $myDarkRed;
+
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+
+#sky {
+	z-index: 0;
+	background-image: url(../img/sky.jpg);
+	width: 100%;
+	height: 700px;
+	position: absolute;
+	top: 0;
+}
+
+#sun {
+	z-index: 1;
+	background-image: url(../img/sun.png);
+	width: 940px;
+	height: 680px;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	background-repeat: no-repeat;
+	// overflow: hidden;
+}
+
+#cloud1 {
+	z-index: 3;
+	background-image: url(../img/cloud1.png);
+	width: 100%;
+	height: 159px;
+	position: absolute;
+	top: 120px;
+	background-repeat: repeat-x;
+
+	-webkit-animation: ani-cloud1 100s linear infinite;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation: ani-cloud1 100s linear infinite;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -o-animation: ani-cloud1 100s linear infinite;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+
+    -ms-animation: ani-cloud1 100s linear infinite;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation: ani-cloud1 100s linear infinite;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes ani-cloud1 {
+    from { background-position: 0 0; }
+    to { background-position: 1000px 0; }
+}
+
+@-moz-keyframes ani-cloud1 {
+    from { background-position: 0 0; }
+    to { background-position: 1000px 0; }
+}
+
+@-o-keyframes ani-cloud1 {
+    from { background-position: 0 0; }
+    to { background-position: 1000px 0; }
+}
+
+@-ms-keyframes ani-cloud1 {
+    from { background-position: 0 0; }
+    to { background-position: 1000px 0; }
+}
+
+@keyframes ani-cloud1 {
+    from { background-position: 0 0; }
+    to { background-position: 1000px 0; }
+}
+
+#cloud2 {
+	z-index: 3;
+	background-image: url(../img/cloud2.png);
+	width: 100%;
+	height: 128px;
+	position: absolute;
+	top: 165px;
+	// left: 30px;
+	background-repeat: repeat-x;
+
+	-webkit-animation: ani-cloud2 60s linear infinite;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation: ani-cloud2 60s linear infinite;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -o-animation: ani-cloud2 60s linear infinite;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+
+    -ms-animation: ani-cloud2 60s linear infinite;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation: ani-cloud2 60s linear infinite;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes ani-cloud2 {
+    from { background-position: 0 0; }
+    to { background-position: 1000px 0; }
+}
+
+@-moz-keyframes ani-cloud2 {
+    from { background-position: 0 0; }
+    to { background-position: 1000px 0; }
+}
+
+@-o-keyframes ani-cloud2 {
+    from { background-position: 0 0; }
+    to { background-position: 1000px 0; }
+}
+
+@-ms-keyframes ani-cloud2 {
+    from { background-position: 0 0; }
+    to { background-position: 1000px 0; }
+}
+
+@keyframes ani-cloud2 {
+    from { background-position: 0 0; }
+    to { background-position: 1000px 0; }
+}
+
+// #oceanLayer1 {
+// 	z-index: 3;
+// 	background-image: url(../img/oceanLayer1.png);
+// 	width: 100%;
+// 	height: 100%;
+// 	position: absolute;
+// 	top: 550px;
+// 	// left: 0;
+// 	// overflow: hidden;
+// 	// margin-bottom: -5%;
+
+// 	-webkit-animation: ani-oceanLayer1 37s linear infinite;
+//     -webkit-animation-iteration-count: infinite;
+//     -webkit-animation-timing-function: linear;
+
+//     -moz-animation: ani-oceanLayer1 37s linear infinite;
+//     -moz-animation-iteration-count: infinite;
+//     -moz-animation-timing-function: linear;
+
+//     -o-animation: ani-oceanLayer1 37s linear infinite;
+//     -o-animation-iteration-count: infinite;
+//     -o-animation-timing-function: linear;
+
+//     -ms-animation: ani-oceanLayer1 37s linear infinite;
+//     -ms-animation-iteration-count: infinite;
+//     -ms-animation-timing-function: linear;
+
+//     animation: ani-oceanLayer1 37s linear infinite;
+//     animation-iteration-count: infinite;
+//     animation-timing-function: linear;
+// }
+
+// @-webkit-keyframes ani-oceanLayer1 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// @-moz-keyframes ani-oceanLayer1 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// @-o-keyframes ani-oceanLayer1 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// @-ms-keyframes ani-oceanLayer1 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// @keyframes ani-oceanLayer1 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// #oceanLayer2 {
+// 	z-index: 4;
+// 	background-image: url(../img/oceanLayer2.png);
+// 	width: 100%;
+// 	height: 100%;
+// 	position: absolute;
+// 	top: 570px;
+// 	// left: 0;
+// 	// overflow: hidden;
+// 	// margin-bottom: -5%;
+
+// 	-webkit-animation: ani-oceanLayer2 31s linear infinite;
+//     -webkit-animation-iteration-count: infinite;
+//     -webkit-animation-timing-function: linear;
+
+//     -moz-animation: ani-oceanLayer2 31s linear infinite;
+//     -moz-animation-iteration-count: infinite;
+//     -moz-animation-timing-function: linear;
+
+//     -o-animation: ani-oceanLayer2 31s linear infinite;
+//     -o-animation-iteration-count: infinite;
+//     -o-animation-timing-function: linear;
+
+//     -ms-animation: ani-oceanLayer2 31s linear infinite;
+//     -ms-animation-iteration-count: infinite;
+//     -ms-animation-timing-function: linear;
+
+//     animation: ani-oceanLayer2 31s linear infinite;
+//     animation-iteration-count: infinite;
+//     animation-timing-function: linear;
+// }
+
+// @-webkit-keyframes ani-oceanLayer2 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// @-moz-keyframes ani-oceanLayer2 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// @-o-keyframes ani-oceanLayer2 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// @-ms-keyframes ani-oceanLayer2 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// @keyframes ani-oceanLayer2 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// #oceanLayer8 {
+// 	z-index: 10;
+// 	background-image: url(../img/oceanLayer8.png);
+// 	width: 100%;
+// 	height: 100%;
+// 	position: absolute;
+// 	top: 680px;
+// 	// left: 0;
+// 	// overflow: hidden;
+// 	// margin-bottom: -5%;
+
+// 	-webkit-animation: ani-oceanLayer8 25s linear infinite;
+//     -webkit-animation-iteration-count: infinite;
+//     -webkit-animation-timing-function: linear;
+
+//     -moz-animation: ani-oceanLayer8 25s linear infinite;
+//     -moz-animation-iteration-count: infinite;
+//     -moz-animation-timing-function: linear;
+
+//     -o-animation: ani-oceanLayer8 25s linear infinite;
+//     -o-animation-iteration-count: infinite;
+//     -o-animation-timing-function: linear;
+
+//     -ms-animation: ani-oceanLayer8 25s linear infinite;
+//     -ms-animation-iteration-count: infinite;
+//     -ms-animation-timing-function: linear;
+
+//     animation: ani-oceanLayer8 25s linear infinite;
+//     animation-iteration-count: infinite;
+//     animation-timing-function: linear;
+// }
+
+// @-webkit-keyframes ani-oceanLayer8 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// @-moz-keyframes ani-oceanLayer8 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// @-o-keyframes ani-oceanLayer8 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// @-ms-keyframes ani-oceanLayer8 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// @keyframes ani-oceanLayer8 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// #oceanLayer9 {
+// 	z-index: 11;
+// 	background-image: url(../img/oceanLayer9.png);
+// 	width: 100%;
+// 	height: 100%;
+// 	position: absolute;
+// 	top: 725px;
+// 	// left: 0;
+// 	// overflow: hidden;
+// 	// margin-bottom: -5%;
+
+// 	-webkit-animation: ani-oceanLayer9 25s linear infinite;
+//     -webkit-animation-iteration-count: infinite;
+//     -webkit-animation-timing-function: linear;
+
+//     -moz-animation: ani-oceanLayer9 25s linear infinite;
+//     -moz-animation-iteration-count: infinite;
+//     -moz-animation-timing-function: linear;
+
+//     -o-animation: ani-oceanLayer9 25s linear infinite;
+//     -o-animation-iteration-count: infinite;
+//     -o-animation-timing-function: linear;
+
+//     -ms-animation: ani-oceanLayer9 25s linear infinite;
+//     -ms-animation-iteration-count: infinite;
+//     -ms-animation-timing-function: linear;
+
+//     animation: ani-oceanLayer9 25s linear infinite;
+//     animation-iteration-count: infinite;
+//     animation-timing-function: linear;
+// }
+
+// @-webkit-keyframes ani-oceanLayer9 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// @-moz-keyframes ani-oceanLayer9 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// @-o-keyframes ani-oceanLayer9 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// @-ms-keyframes ani-oceanLayer9 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+// @keyframes ani-oceanLayer9 {
+//     from { background-position: 0 0; }
+//     to { background-position: 1000px 0; }
+// }
+
+#ocean {
+	z-index: 3;
+	background-image: url(../img/barooswave.jpg);
+	width: 100%;
+	height: 701px;
+	position: absolute;
+	top: 600px;
+	// left: 0;
+	// overflow: hidden;
+	// margin-bottom: -5%;
+
+	-webkit-animation: ani-ocean 45s linear infinite;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation: ani-ocean 45s linear infinite;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -o-animation: ani-ocean 45s linear infinite;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+
+    -ms-animation: ani-ocean 45s linear infinite;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation: ani-ocean 45s linear infinite;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes ani-ocean {
+    from { background-position: 0 0; }
+    to { background-position: 1000px 0; }
+}
+
+@-moz-keyframes ani-ocean {
+    from { background-position: 0 0; }
+    to { background-position: 1000px 0; }
+}
+
+@-o-keyframes ani-ocean {
+    from { background-position: 0 0; }
+    to { background-position: 1000px 0; }
+}
+
+@-ms-keyframes ani-ocean {
+    from { background-position: 0 0; }
+    to { background-position: 1000px 0; }
+}
+
+@keyframes ani-ocean {
+    from { background-position: 0 0; }
+    to { background-position: 1000px 0; }
+}
+
+
+
+/*-----  End of MULTIPLE PAGES  ------*/
+
+
+
+
+/*=============================================
+=            HOME            =
+=============================================*/
+
+// #ageQuestion {
+// 	position: fixed;
+// 	z-index: 9999;
+
+// 	#ageContainer {
+// 		// width: 30%;
+// 		margin: 15% auto;
+// 	}
+// }
+
+.indexHeroImg {
+	// position: absolute;
+	// top: 200px;
+	// // margin-bottom: -20px;
+	// z-index: 3;
+}
+
+.indexHeroCTA {
+	position: relative;
+	// top: 150px;
+	// margin-bottom: -20px;
+	z-index: 3;
+	// margin: 0 5%;
+	// margin-bottom: -20px;
+}
+
+.heroHeader a {
+	color: $charcoal;
+}
+
+// .heroHeader a:hover {
+// 	color: $myDarkRed;
+
+// 	-webkit-transition: all ease 0.3s;
+// 	-moz-transition: all ease 0.3s;
+// 	-o-transition: all ease 0.3s;
+// 	-ms-transition: all ease 0.3s;
+// 	transition: all ease 0.3s;
+// }
+
+// body .stage .indexCutOff {
+// 	height: 860px;
+// }
+
+/*-----  End of HOME  ------*/
+
+
+
+
+/*=============================================
+=            QUIZ             =
+=============================================*/
+
+.slideContainer {
+
+
+	.row .large-12 .quizQuestion {
+		text-align: left;
+		line-height: 1.2em;
+		font-size: 1.8em;
+		position: static;
+		padding-left: 0;
+		margin-left: 60px;
+		margin-top: 70px;
+	}
+
+	.row .large-8 ul {
+		list-style: none;
+		margin-left: 60px;
+		// margin-top: -30px;
+
+		li {
+			font-size: 1.3em;
+		}
+
+		// li a {
+		// 	padding: 10px 5px;
+		// }
+	}
+}
+
+.arrowPrev {
+	// position: absolute;
+	// top: 350px;
+	// left: 50px;
+	overflow: visible;
+	display: block;
+}
+
+.arrowNext {
+	// position: absolute;
+	// top: 350px;
+	// right: 10%;
+	overflow: visible;
+}
+
+.finishQuiz {
+	margin-left: 60%;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/*-----  End of SLIDES  ------*/
+
+
+
+
+/*=============================================
+=            BREW LANDING PAGE            =
+=============================================*/
+
+.beerList {
+	// position: absolute;
+	// margin: 0 5%;
+	margin-bottom: 120px;
+}
+
+.beerList ul {
+	margin-left: 30px;
+
+	li {
+		list-style: none;
+		text-align: center;
+	}
+
+	img {
+		// margin: 0 0 30px 0;
+	}
+}
+
+.beers {
+	margin-bottom: 30px;
+
+	ul {
+
+		li {
+			margin-top: 20px;
+			font-family: $typewriter;
+			text-transform: uppercase;
+			font-size: 1.2em;
+			font-weight: 700;
+		}
+
+		li a {
+			color: $charcoal;
+		}
+	}
+
+}
+
+/*-----  End of BREW LANDING PAGE  ------*/
+
+
+
+
+/*=============================================
+=            BREW DETAIL PAGE            =
+=============================================*/
+
+.featureBeerImg {
+	margin-bottom: 30px;
+}
+
+.beerNameHeader {
+	margin-top: 0;
+}
+
+.detailPageButtons {
+	margin-bottom: 30px;
+}
+
+.button {
+	margin-right: 20px;
+}
+
+.sectionTitle {
+	font-size: 2em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.secondRow {
+	margin-top: 50px;
+	// margin-bottom: 5%;
+	margin-bottom: 219px;
+}
+
+.lastSectionTitle {
+	padding-top: 40px;
+}
+
+
+
+
+/*-----  End of BREW DETAIL PAGE  ------*/
+
+
+
+
+@media screen and (min-width: 48em) {
+
+/*=============================================
+=            MULTIPLE PAGES            =
+=============================================*/
+
+header .header {
+	margin-bottom: 50px;
+}
+
+footer {
+
+	p {
+		display: inline;
+	}
+
+	.footer {
+		margin-bottom: 2%;
+	}
+
+	.socialIcons ul {
+		// float: right;
+		display: inline;
+		margin-right: 1%;
+
+		li {
+			margin-right: 10px;
+		}
+
+		.lastSocial {
+			margin-right: 0;
+		}
+	}
+}
+
+/*-----  End of MULTIPLE PAGES  ------*/
+
+
+
+
+/*=============================================
+=            HOME            =
+=============================================*/
+
+
+
+/*-----  End of HOME  ------*/
+
+
+
+
+/*=============================================
+=            QUIZ             =
+=============================================*/
+
+.finishQuiz {
+	font-size: 1.2em;
+}
+
+.slideContainer {
+
+
+	.row .large-12 .quizQuestion {
+		font-size: 2.7em;
+		margin-left: 60px;
+		margin-bottom: 50px;
+	}
+
+	.row .large-8 ul {
+
+		li {
+			font-size: 1.7em;
+		}
+	}
+}
+
+/*-----  End of SLIDES  ------*/
+
+
+
+
+/*=============================================
+=            BREW LANDING PAGE            =
+=============================================*/
+
+
+
+/*-----  End of BREW LANDING PAGE  ------*/
+
+
+
+
+/*=============================================
+=            BREW DETAIL PAGE            =
+=============================================*/
+
+.lastSectionTitle {
+	padding-top: 0;
+}
+
+/*-----  End of BREW DETAIL PAGE  ------*/
+
+}
+
+
+
+
+@media screen and (min-width: 58.75em) {
+
+/*=============================================
+=            MULTIPLE PAGES            =
+=============================================*/
+
+.wrap {
+	margin: 0 10%;
+}
+
+/*-----  End of MULTIPLE PAGES  ------*/
+
+
+
+
+/*=============================================
+=            HOME            =
+=============================================*/
+
+
+
+/*-----  End of HOME  ------*/
+
+
+
+
+/*=============================================
+=            QUIZ             =
+=============================================*/
+
+
+
+/*-----  End of SLIDES  ------*/
+
+
+
+
+/*=============================================
+=            BREW LANDING PAGE            =
+=============================================*/
+
+
+
+/*-----  End of BREW LANDING PAGE  ------*/
+
+
+
+
+/*=============================================
+=            BREW DETAIL PAGE            =
+=============================================*/
+
+
+
+/*-----  End of BREW DETAIL PAGE  ------*/
+
+}
+
+
+
+
+@media screen and (min-width: 80em) {
+
+/*=============================================
+=            MULTIPLE PAGES            =
+=============================================*/
+
+
+
+/*-----  End of MULTIPLE PAGES  ------*/
+
+
+
+
+/*=============================================
+=            HOME            =
+=============================================*/
+
+
+
+/*-----  End of HOME  ------*/
+
+
+
+
+/*=============================================
+=            QUIZ             =
+=============================================*/
+
+
+
+/*-----  End of SLIDES  ------*/
+
+
+
+
+/*=============================================
+=            BREW LANDING PAGE            =
+=============================================*/
+
+
+
+/*-----  End of BREW LANDING PAGE  ------*/
+
+
+
+
+/*=============================================
+=            BREW DETAIL PAGE            =
+=============================================*/
+
+
+
+/*-----  End of BREW DETAIL PAGE  ------*/
+
+}
+
+
+
+
+@media screen and (min-width: 90em) {
+
+/*=============================================
+=            MULTIPLE PAGES            =
+=============================================*/
+
+
+
+/*-----  End of MULTIPLE PAGES  ------*/
+
+
+
+
+/*=============================================
+=            HOME            =
+=============================================*/
+
+
+
+/*-----  End of HOME  ------*/
+
+
+
+
+/*=============================================
+=            QUIZ             =
+=============================================*/
+
+
+
+/*-----  End of SLIDES  ------*/
+
+
+
+
+/*=============================================
+=            BREW LANDING PAGE            =
+=============================================*/
+
+
+
+/*-----  End of BREW LANDING PAGE  ------*/
+
+
+
+
+/*=============================================
+=            BREW DETAIL PAGE            =
+=============================================*/
+
+
+
+/*-----  End of BREW DETAIL PAGE  ------*/
+
+}
+
+
+
+
+
+

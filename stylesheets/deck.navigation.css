@@ -1,0 +1,40 @@
+/* line 8, ../sass/deck.navigation.scss */
+.wrap .deck-prev-link, .wrap .deck-next-link {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+  margin-top: -16px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 32px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: #888;
+}
+/* line 25, ../sass/deck.navigation.scss */
+.borderradius .wrap .deck-prev-link, .borderradius .wrap .deck-next-link {
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+}
+/* line 29, ../sass/deck.navigation.scss */
+.wrap .deck-prev-link:hover, .wrap .deck-prev-link:focus, .wrap .deck-prev-link:active, .wrap .deck-prev-link:visited, .wrap .deck-next-link:hover, .wrap .deck-next-link:focus, .wrap .deck-next-link:active, .wrap .deck-next-link:visited {
+  color: #fff;
+}
+/* line 34, ../sass/deck.navigation.scss */
+.wrap .deck-prev-link {
+  left: 8px;
+}
+/* line 38, ../sass/deck.navigation.scss */
+.wrap .deck-next-link {
+  right: 8px;
+}
+/* line 42, ../sass/deck.navigation.scss */
+.wrap:hover .deck-prev-link, .wrap:hover .deck-next-link {
+  display: block;
+}

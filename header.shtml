@@ -1,0 +1,21 @@
+
+<header>
+
+	<div class="row header">
+
+		<div class="large-6 columns headerImg">
+			<a href="index.html"><img src="img/logo.jpg"></a>
+		</div>
+
+		<!-- <div class="large-6 columns socialIcons">
+			<ul>
+				<li><a href=""><i class="icon-facebook-sign icon-2x"></i></a></li>
+				<li><a href=""><i class="icon-youtube-sign icon-2x"></i></a></li>
+				<li><a href=""><i class="icon-instagram icon-2x"></i></a></li>
+				<li class="lastSocial"><a href=""><i class="icon-twitter-sign icon-2x"></i></a></li>
+			</ul>
+		</div> -->
+
+	</div><!-- /header -->
+
+</header>

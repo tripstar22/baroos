@@ -1,0 +1,15 @@
+/* line 2, ../sass/deck.hash.scss */
+.deck-container .deck-permalink {
+  display: none;
+  position: absolute;
+  z-index: 4;
+  bottom: 30px;
+  right: 0;
+  width: 48px;
+  text-align: center;
+}
+
+/* line 13, ../sass/deck.hash.scss */
+.no-history .deck-container:hover .deck-permalink {
+  display: block;
+}

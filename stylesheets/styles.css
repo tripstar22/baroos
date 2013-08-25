@@ -1,0 +1,329 @@
+/*=============================================
+=            MULTIPLE PAGES            =
+=============================================*/
+/* line 12, ../sass/styles.scss */
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+/* line 17, ../sass/styles.scss */
+body {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+}
+
+/* line 23, ../sass/styles.scss */
+header .header {
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+/* line 27, ../sass/styles.scss */
+header .header .socialIcons {
+  display: inline;
+  float: right;
+}
+/* line 31, ../sass/styles.scss */
+header .header .socialIcons ul li {
+  display: inline;
+}
+/* line 35, ../sass/styles.scss */
+header .header .socialIcons ul li a i {
+  color: #ed1b24;
+}
+/* line 39, ../sass/styles.scss */
+header .header .socialIcons ul li a i:hover {
+  color: #d3191c;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+/* line 51, ../sass/styles.scss */
+#stage {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  overflow: visible;
+}
+
+/* line 60, ../sass/styles.scss */
+.wrap {
+  margin: 0 5%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+/* line 68, ../sass/styles.scss */
+footer {
+  background-image: url(../img/footer.png);
+  height: 220px;
+}
+/* line 72, ../sass/styles.scss */
+footer .socialIcons {
+  display: inline;
+  margin-top: 40px;
+}
+/* line 76, ../sass/styles.scss */
+footer .socialIcons ul {
+  float: none;
+}
+/* line 80, ../sass/styles.scss */
+footer .socialIcons ul li {
+  display: inline;
+}
+/* line 84, ../sass/styles.scss */
+footer .socialIcons ul li a i {
+  color: #ed1b24;
+}
+/* line 88, ../sass/styles.scss */
+footer .socialIcons ul li a i:hover {
+  color: #d3191c;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+/* line 105, ../sass/styles.scss */
+footer .legalList {
+  list-style: none;
+  float: right;
+  margin-top: 40px;
+}
+/* line 110, ../sass/styles.scss */
+footer .legalList li {
+  display: inline;
+  margin-right: 15px;
+  color: #ed1b24;
+}
+/* line 116, ../sass/styles.scss */
+footer .legalList a {
+  color: #ed1b24;
+}
+/* line 121, ../sass/styles.scss */
+footer .legalList li:hover {
+  color: #d3191c;
+}
+
+/*-----  End of MULTIPLE PAGES  ------*/
+/*=============================================
+=            HOME            =
+=============================================*/
+/* line 135, ../sass/styles.scss */
+#ageQuestion {
+  position: fixed;
+  z-index: 9999;
+}
+/* line 139, ../sass/styles.scss */
+#ageQuestion #ageContainer {
+  margin: 15% auto;
+}
+
+/*-----  End of HOME  ------*/
+/*=============================================
+=            QUIZ             =
+=============================================*/
+/* line 154, ../sass/styles.scss */
+.arrowPrev {
+  overflow: visible;
+  display: block;
+}
+
+/* line 162, ../sass/styles.scss */
+.arrowNext {
+  overflow: visible;
+}
+
+/* line 169, ../sass/styles.scss */
+.finishQuiz {
+  margin-left: 60%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*-----  End of SLIDES  ------*/
+/*=============================================
+=            BREW LANDING PAGE            =
+=============================================*/
+/* line 184, ../sass/styles.scss */
+.beers {
+  margin-bottom: 30px;
+}
+
+/*-----  End of BREW LANDING PAGE  ------*/
+/*=============================================
+=            BREW DETAIL PAGE            =
+=============================================*/
+/* line 197, ../sass/styles.scss */
+.wrap .featureBeerImg {
+  margin-bottom: 30px;
+}
+
+/* line 201, ../sass/styles.scss */
+.wrap .beerNameHeader {
+  margin-top: 0;
+}
+
+/* line 205, ../sass/styles.scss */
+.wrap .detailPageButtons {
+  margin-bottom: 30px;
+}
+
+/* line 209, ../sass/styles.scss */
+.button {
+  margin-right: 20px;
+}
+
+/* line 213, ../sass/styles.scss */
+.sectionTitle {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+/* line 218, ../sass/styles.scss */
+.lastSectionTitle {
+  padding-top: 40px;
+}
+
+/* line 222, ../sass/styles.scss */
+#oceanLayer1 {
+  z-index: 0;
+  background-image: url(../img/oceanCalm.png);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  -webkit-animation: ani-ocean 25s linear infinite;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes ani-ocean {
+  /* line 238, ../sass/styles.scss */
+  from {
+    background-position: 0 0;
+  }
+
+  /* line 239, ../sass/styles.scss */
+  to {
+    background-position: 987px 0;
+  }
+}
+
+/*-----  End of BREW DETAIL PAGE  ------*/
+@media screen and (min-width: 48em) {
+  /*=============================================
+  =            MULTIPLE PAGES            =
+  =============================================*/
+  /* line 254, ../sass/styles.scss */
+  header .header {
+    margin-bottom: 50px;
+  }
+
+  /*-----  End of MULTIPLE PAGES  ------*/
+  /*=============================================
+  =            HOME            =
+  =============================================*/
+  /*-----  End of HOME  ------*/
+  /*=============================================
+  =            QUIZ             =
+  =============================================*/
+  /* line 278, ../sass/styles.scss */
+  .finishQuiz {
+    font-size: 1.2em;
+  }
+
+  /*-----  End of SLIDES  ------*/
+  /*=============================================
+  =            BREW LANDING PAGE            =
+  =============================================*/
+  /*-----  End of BREW LANDING PAGE  ------*/
+  /*=============================================
+  =            BREW DETAIL PAGE            =
+  =============================================*/
+  /* line 302, ../sass/styles.scss */
+  .lastSectionTitle {
+    padding-top: 0;
+  }
+
+  /*-----  End of BREW DETAIL PAGE  ------*/
+}
+@media screen and (min-width: 58.75em) {
+  /*=============================================
+  =            MULTIPLE PAGES            =
+  =============================================*/
+  /* line 319, ../sass/styles.scss */
+  .wrap {
+    margin: 0 10%;
+  }
+
+  /*-----  End of MULTIPLE PAGES  ------*/
+  /*=============================================
+  =            HOME            =
+  =============================================*/
+  /*-----  End of HOME  ------*/
+  /*=============================================
+  =            QUIZ             =
+  =============================================*/
+  /*-----  End of SLIDES  ------*/
+  /*=============================================
+  =            BREW LANDING PAGE            =
+  =============================================*/
+  /*-----  End of BREW LANDING PAGE  ------*/
+  /*=============================================
+  =            BREW DETAIL PAGE            =
+  =============================================*/
+  /*-----  End of BREW DETAIL PAGE  ------*/
+}
+@media screen and (min-width: 80em) {
+  /*=============================================
+  =            MULTIPLE PAGES            =
+  =============================================*/
+  /*-----  End of MULTIPLE PAGES  ------*/
+  /*=============================================
+  =            HOME            =
+  =============================================*/
+  /*-----  End of HOME  ------*/
+  /*=============================================
+  =            QUIZ             =
+  =============================================*/
+  /*-----  End of SLIDES  ------*/
+  /*=============================================
+  =            BREW LANDING PAGE            =
+  =============================================*/
+  /*-----  End of BREW LANDING PAGE  ------*/
+  /*=============================================
+  =            BREW DETAIL PAGE            =
+  =============================================*/
+  /*-----  End of BREW DETAIL PAGE  ------*/
+}
+@media screen and (min-width: 90em) {
+  /*=============================================
+  =            MULTIPLE PAGES            =
+  =============================================*/
+  /*-----  End of MULTIPLE PAGES  ------*/
+  /*=============================================
+  =            HOME            =
+  =============================================*/
+  /*-----  End of HOME  ------*/
+  /*=============================================
+  =            QUIZ             =
+  =============================================*/
+  /*-----  End of SLIDES  ------*/
+  /*=============================================
+  =            BREW LANDING PAGE            =
+  =============================================*/
+  /*-----  End of BREW LANDING PAGE  ------*/
+  /*=============================================
+  =            BREW DETAIL PAGE            =
+  =============================================*/
+  /*-----  End of BREW DETAIL PAGE  ------*/
+}
